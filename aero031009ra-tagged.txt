@@ -1,0 +1,411 @@
+<s>
+I._NP1 Introduction_NN1 THE_AT analytical_JJ methods_NN2 used_VVN in_II classical_JJ aerodynamics_NN2 treat_VV0 the_AT atmosphere_NN1 as_II a_AT1 fluid_NN1 continuum_NN1 ._. 
+</s>
+<s>
+According_II21 to_II22 the_AT classical_JJ scientific_JJ definition_NN1 ,_, a_AT1 fluid_NN1 is_VBZ a_AT1 substance_NN1 that_CST deforms_VVZ continuously_RR under_II the_AT action_NN1 of_IO a_AT1 shear_VV0 stress_NN1 ._. 
+</s>
+<s>
+However_RR ,_, what_DDQ is_VBZ commonly_RR called_VVN still_JJ air_NN1 is_VBZ comprised_VVN of_IO very_RG small_JJ moving_JJ molecules_NN2 separated_VVN by_II relatively_RR vast_JJ amounts_NN2 of_IO empty_JJ space_NN1 ._. 
+</s>
+<s>
+The_AT air_NN1 is_VBZ said_VVN to_TO be_VBI still_RR only_RR because_CS the_AT statistical_JJ average_JJ velocity_NN1 of_IO the_AT molecules_NN2 is_VBZ zero_MC ._. 
+</s>
+<s>
+When_CS a_AT1 particular_JJ molecule_NN1 collides_VVZ with_IW a_AT1 moving_JJ object_NN1 ,_, its_APPGE velocity_NN1 is_VBZ changed_VVN ._. 
+</s>
+<s>
+As_RG many_DA2 molecules_NN2 collide_VV0 with_IW the_AT moving_JJ object_NN1 ,_, the_AT statistical_JJ average_JJ velocity_NN1 of_IO the_AT molecules_NN2 changes_NN2 ._. 
+</s>
+<s>
+This_DD1 change_NN1 in_II average_JJ velocity_NN1 is_VBZ manifested_VVN as_II a_AT1 deformation_NN1 of_IO the_AT air_NN1 ._. 
+</s>
+<s>
+However_RR ,_, strictly_RR speaking_VVG ,_, the_AT deformation_NN1 of_IO the_AT air_NN1 is_VBZ not_XX continuous_JJ but_CCB comes_VVZ as_II a_AT1 series_NN of_IO discrete_JJ impulses_NN2 ._. 
+</s>
+<s>
+Nevertheless_RR ,_, in_II most_RGT commonly_RR encountered_VVN situations_NN2 such_DA deformation_NN1 can_VM be_VBI approximated_VVN accurately_RR as_CSA being_VBG continuous_JJ ,_, because_CS the_AT number_NN1 of_IO collisions_NN2 with_IW the_AT object_NN1 per_II unit_NN1 time_NNT1 is_VBZ very_RG large_JJ ._. 
+</s>
+<s>
+Thus_RR ,_, air_NN1 at_II the_AT altitudes_NN2 normally_RR encountered_VVN in_II flight_NN1 can_VM usually_RR be_VBI modeled_VVN accurately_RR as_II a_AT1 fluid_NN1 continuum_NN1 ._. 
+</s>
+<s>
+At_II very_RG high_JJ altitudes_NN2 and/or_CC when_CS considering_VVG flow_NN1 about_II very_RG small_JJ objects_NN2 ,_, air_NN1 can_VM not_XX be_VBI modeled_VVN as_II a_AT1 continuum_NN1 ,_, and_CC in_II such_DA cases_NN2 ,_, the_AT mathematical_JJ formulations_NN2 used_VVN in_II classical_JJ aerodynamics_NN2 do_VD0 not_XX apply_VVI ._. 
+</s>
+<s>
+A_AT1 dimensionless_JJ parameter_NN1 that_CST is_VBZ typically_RR used_VVN to_TO define_VVI the_AT boundary_NN1 of_IO continuum_NN1 flow_NN1 is_VBZ the_AT Knudsen_NP1 number_NN1 Kn_NP1 ,_, which_DDQ is_VBZ defined_VVN to_TO be_VBI the_AT ratio_NN1 of_IO the_AT molecular_JJ mean_JJ free_JJ path_NN1 to_II the_AT smallest_JJT significant_JJ dimension_NN1 of_IO the_AT flow_NN1 geometry_NN1 d_ZZ1 ._. 
+</s>
+<s>
+The_AT molecular_JJ mean_JJ free_JJ path_NN1 is_VBZ the_AT mean_JJ distance_NN1 that_CST a_AT1 molecule_NN1 travels_VVZ between_II collisions_NN2 with_IW neighboring_VVG molecules_NN2 ._. 
+</s>
+<s>
+For_IF an_AT1 object_NN1 moving_VVG through_II the_AT atmosphere_NN1 ,_, the_AT accuracy_NN1 of_IO continuum_NN1 theory_NN1 also_RR depends_VVZ on_II the_AT Mach_NNU number_NN1 ._. 
+</s>
+<s>
+Strictly_RR speaking_VVG ,_, continuum_NN1 theory_NN1 applies_VVZ only_RR in_II the_AT limit_NN1 as_II the_AT Knudsen_NP1 number_NN1 approaches_VVZ zero_MC ._. 
+</s>
+<s>
+However_RR ,_, the_AT molecular_JJ mean_JJ free_JJ path_NN1 for_IF air_NN1 at_II standard_JJ sea_NN1 level_NN1 is_VBZ approximately_RR 2:1ft_FO ._. 
+</s>
+<s>
+At_II higher_JJR altitudes_NN2 the_AT mean_JJ free_JJ path_NN1 increases_NN2 ,_, and_CC at_II 50,000_MC ft_NNU the_AT mean_JJ free_JJ path_NN1 is_VBZ about_RG 1:2_MC ft_NNU ._. 
+</s>
+<s>
+Even_RR at_II an_AT1 altitude_NN1 of_IO 200,000_MC ft_NNU ,_, the_AT mean_JJ free_JJ path_NN1 is_VBZ still_RR less_DAR than_CSN 9:1_MC ft_NNU ._. 
+</s>
+<s>
+Thus_RR ,_, except_II21 for_II22 very_RG high_JJ altitudes_NN2 ,_, and/or_CC for_IF flow_NN1 about_II very_RG small_JJ objects_NN2 ,_, atmospheric_JJ air_NN1 can_VM be_VBI approximated_VVN as_II a_AT1 fluid_NN1 continuum_NN1 ._. 
+</s>
+<s>
+Nevertheless_RR ,_, an_AT1 engineer_NN1 should_VM never_RR lose_VVI sight_NN1 of_IO the_AT fact_NN1 that_CST the_AT continuum_NN1 theory_NN1 of_IO aerodynamics_NN1 is_VBZ only_RR a_AT1 mathematical_JJ model_NN1 used_VMK to_TO approximate_VVI the_AT behavior_NN1 of_IO a_AT1 collection_NN1 of_IO molecules_NN2 ._. 
+</s>
+<s>
+There_EX are_VBR important_JJ applications_NN2 ,_, such_II21 as_II22 spacecraft_NN launch_VV0 and_CC reentry_NN1 and_CC flow_NN1 about_II small_JJ aerosol_NN1 particles_NN2 ,_, which_DDQ can_VM not_XX be_VBI analyzed_VVN accurately_RR using_VVG continuum_NN1 theory_NN1 ._. 
+</s>
+<s>
+At_II an_AT1 altitude_NN1 of_IO 400,000_MC ft_NNU ,_, the_AT molecular_JJ mean_JJ free_JJ path_NN1 for_IF atmospheric_JJ air_NN1 is_VBZ nearly_RR 24_MC ft_NNU ._. 
+</s>
+<s>
+Thus_RR ,_, at_II this_DD1 altitude_NN1 ,_, atmospheric_JJ air_NN1 can_VM not_XX be_VBI modeled_VVN as_II a_AT1 fluid_NN1 continuum_NN1 ._. 
+</s>
+<s>
+During_II spacecraft_NN launch_VV0 and_CC reentry_NN1 ,_, vehicles_NN2 like_II the_AT space_NN1 shuttle_NN1 must_VM pass_VVI through_II a_AT1 region_NN1 of_IO the_AT atmosphere_NN1 where_CS continuum_NN1 theory_NN1 does_VDZ not_XX apply_VVI and_CC yet_RR the_AT forces_NN2 exerted_VVN on_II the_AT vehicle_NN1 by_II the_AT surrounding_JJ air_NN1 can_VM not_XX be_VBI ignored_VVN ._. 
+</s>
+<s>
+At_II low_JJ altitudes_NN2 ,_, airflow_VV0 about_II an_AT1 object_NN1 having_VHG a_AT1 minimum_JJ significant_JJ characteristic_JJ dimension_NN1 of_IO 1mwould_FO result_VV0 in_II a_AT1 Knudsen_NN1 number_NN1 on_II the_AT order_NN1 of_IO 107_MC ._. 
+</s>
+<s>
+As_II the_AT altitude_NN1 increases_NN2 or_CC the_AT size_NN1 of_IO the_AT object_NN1 decreases_VVZ ,_, the_AT Knudsen_NP1 number_NN1 becomes_VVZ larger_JJR ._. 
+</s>
+<s>
+When_CS the_AT Knudsen_NP1 number_NN1 becomes_VVZ large_JJ enough_RR ,_, continuum_NN1 theory_NN1 first_MD begins_VVZ to_TO break_VVI down_RP with_IW failure_NN1 of_IO the_AT no-slip_JJ boundary_NN1 condition_NN1 at_II the_AT interface_NN1 between_II the_AT air_NN1 and_CC the_AT object_NN1 ._. 
+</s>
+<s>
+The_AT value_NN1 of_IO the_AT Knudsen_NP1 number_NN1 at_II which_DDQ the_AT no-slip_JJ boundary_NN1 condition_NN1 first_MD begins_VVZ to_TO fail_VVI depends_VVZ on_II the_AT airspeed_NN1 ._. 
+</s>
+<s>
+For_IF objects_NN2 as_RG large_JJ as_CSA manned_JJ aircraft_NN ,_, continuum_NN1 theory_NN1 first_MD begins_VVZ to_TO break_VVI down_RP with_IW failure_NN1 of_IO the_AT no-slip_JJ boundary_NN1 condition_NN1 near_II the_AT leading_JJ edge_NN1 of_IO objects_NN2 moving_VVG through_II the_AT atmosphere_NN1 at_II high_JJ altitudes_NN2 and_CC hypersonic_JJ airspeeds_NN2 ._. 
+</s>
+<s>
+For_IF aerosol_NN1 particles_NN2 less_RRR than_CSN about_RG 10_MC to_II 20_MC m_NNO in_II diameter_NN1 ,_, the_AT no-slip_JJ boundary_NN1 condition_NN1 may_VM not_XX be_VBI applicable_JJ even_RR for_IF low_JJ airspeeds_NN2 at_II sea_NN1 level_NN1 ._. 
+</s>
+<s>
+In_II most_RGT commonly_RR used_JJ undergraduate_NN1 engineering_NN1 textbooks_NN2 on_II aerodynamics_NN2 ,_, the_AT limitations_NN2 of_IO continuum_NN1 theory_NN1 are_VBR discussed_VVN only_RR briefly_RR or_CC not_XX at_RR21 all_RR22 (_( see_VV0 ,_, for_REX21 example_REX22 ,_, Anderson_NP1 &lsqb;_( 1_MC1 &rsqb;_) ,_, Bertin_NP1 and_CC Cummings_NP1 &lsqb;_( 2_MC &rsqb;_) ,_, Kuethe_NP1 and_CC Chow_NP1 &lsqb;_( 3_MC &rsqb;_) ,_, and_CC McCormick_NP1 &lsqb;_( 4_MC &rsqb;_) )_) ._. 
+</s>
+<s>
+Furthermore_RR ,_, there_EX appears_VVZ to_TO be_VBI some_DD disagreement_NN1 in_II the_AT undergraduate_NN1 engineering_NN1 literature_NN1 regarding_II where_RRQ the_AT practical_JJ boundaries_NN2 of_IO continuum_NN1 theory_NN1 actually_RR fall_VV0 ._. 
+</s>
+<s>
+For_REX21 example_REX22 ,_, Anderson_NP1 &lsqb;_( 1_MC1 &rsqb;_) states_VVZ ,_, If_CS @_II is_VBZ orders_NN2 of_IO magnitude_NN1 smaller_JJR than_CSN the_AT scale_NN1 of_IO the_AT body_NN1 measured_VVN by_II d_ZZ1 ,_, then_RT the_AT flow_NN1 appears_VVZ to_II the_AT body_NN1 as_II a_AT1 continuous_JJ substance._NNU In_II contrast_NN1 ,_, Bertin_NP1 and_CC Cummings_NP1 &lsqb;_( 2_MC &rsqb;_) state_VV0 ,_, Although_CS there_EX is_VBZ no_AT definitive_JJ criterion_NN1 ,_, the_AT continuum_NN1 flow_NN1 model_NN1 starts_VVZ to_TO break_VVI down_RP when_CS the_AT Knudsen_NP1 number_NN1 is_VBZ roughly_RR of_IO the_AT order_NN1 of_IO 0.1._MC An_AT1 even_RR more_RGR liberal_JJ opinion_NN1 is_VBZ rendered_VVN by_II Fox_NP1 and_CC McDonald_NP1 &lsqb;_( 5_MC &rsqb;_) ,_, who_PNQS state_VV0 ,_, The_AT concept_NN1 of_IO a_AT1 continuum_NN1 is_VBZ the_AT basis_NN1 of_IO classical_JJ fluid_NN1 mechanics_NN2 ._. 
+</s>
+<s>
+._. ._. However_RR ,_, it_PPH1 breaks_VVZ down_RP whenever_RRQV the_AT mean_JJ free_JJ path_NN1 of_IO the_AT molecules_NN2 becomes_VVZ the_AT same_DA order_NN1 of_IO magnitude_NN1 as_CSA the_AT smallest_JJT significant_JJ characteristic_JJ dimension_NN1 of_IO the_AT problem._NNU It_PPH1 is_VBZ important_JJ that_CST engineers_NN2 keep_VV0 in_II mind_NN1 the_AT limitations_NN2 of_IO the_AT mathematical_JJ formulations_NN2 that_CST are_VBR used_VVN to_TO solve_VVI engineering_NN1 problems_NN2 ._. 
+</s>
+<s>
+An_AT1 improved_JJ rule_NN1 for_IF approximating_VVG the_AT limits_NN2 of_IO continuum_NN1 theory_NN1 would_VM be_VBI helpful_JJ in_II this_DD1 regard_NN1 ._. 
+</s>
+<s>
+In_II the_AT present_JJ paper_NN1 the_AT effects_NN2 of_IO Knudsen_NP1 number_NN1 ,_, Reynolds_NP1 number_NN1 ,_, and_CC Mach_NNU number_NN1 on_II the_AT limits_NN2 of_IO continuum_NN1 theory_NN1 are_VBR examined_VVN and_CC discussed_VVN at_II a_AT1 level_NN1 that_CST would_VM be_VBI useful_JJ for_IF both_DB2 engineering_NN1 students_NN2 and_CC practicing_VVG engineers_NN2 ._. 
+</s>
+<s>
+Because_CS continuum_NN1 theory_NN1 strictly_RR applies_VVZ only_RR in_II the_AT limit_NN1 as_II the_AT Knudsen_NP1 number_NN1 approaches_VVZ zero_MC ,_, when_CS the_AT Knudsen_NP1 number_NN1 exceeds_VVZ some_DD limiting_JJ value_NN1 ,_, we_PPIS2 must_VM account_VVI for_IF the_AT fact_NN1 that_CST a_AT1 gas_NN1 is_VBZ made_VVN up_RP of_IO individual_JJ molecules_NN2 in_II a_AT1 state_NN1 of_IO constant_JJ motion_NN1 ._. 
+</s>
+<s>
+In_II such_DA cases_NN2 ,_, the_AT macroscopic_JJ motion_NN1 of_IO the_AT gas_NN1 and_CC the_AT forces_NN2 exerted_VVN on_II any_DD bounding_JJ solid_JJ surface_NN1 must_VM be_VBI analyzed_VVN from_II a_AT1 statistical_JJ consideration_NN1 of_IO the_AT motion_NN1 of_IO the_AT molecules_NN2 ._. 
+</s>
+<s>
+The_AT related_JJ field_NN1 of_IO science_NN1 that_CST deals_VVZ with_IW the_AT statistics_NN of_IO molecular_JJ motion_NN1 in_II gases_NN2 is_VBZ called_VVN the_AT kinetic_JJ theory_NN1 of_IO gases_NN2 or_CC ,_, less_RGR commonly_RR ,_, rarefied_VVD gas_NN1 dynamics_NN ._. 
+</s>
+<s>
+The_AT kinetic_JJ theory_NN1 of_IO gases_NN2 is_VBZ a_AT1 well-established_JJ scientific_JJ discipline_NN1 ,_, which_DDQ dates_VVZ back_RP to_II Maxwell_NP1 &lsqb;_( 6C8_FO &rsqb;_) ._. 
+</s>
+<s>
+The_AT reader_NN1 who_PNQS may_VM not_XX be_VBI familiar_JJ with_IW kinetic_JJ theory_NN1 could_VM begin_VVI with_IW the_AT classic_JJ work_NN1 by_II Jeans_NN2 &lsqb;_( 9_MC &rsqb;_) ._. 
+</s>
+<s>
+Other_JJ useful_JJ textbooks_NN2 on_II the_AT topic_NN1 include_VV0 Brush_NN1 &lsqb;_( 10_MC &rsqb;_) ,_, Liboff_NP1 &lsqb;_( 11_MC &rsqb;_) ,_, Present_NN1 &lsqb;_( 12_MC &rsqb;_) ,_, Struchtrup_NP1 &lsqb;_( 13_MC &rsqb;_) ,_, and_CC Vincenti_NP1 and_CC Kruger_NP1 &lsqb;_( 14_MC &rsqb;_) ._. 
+</s>
+<s>
+II_MC ._. 
+</s>
+<s>
+Creeping-Flow_JJ Limit_NN1 From_II continuum_NN1 theory_NN1 applied_VVN to_II the_AT flow_NN1 about_II an_AT1 object_NN1 moving_VVG through_II the_AT atmosphere_NN1 ,_, the_AT traditional_JJ aerodynamic_JJ coefficients_NN2 for_IF lift_NN1 and_CC drag_VV0 are_VBR typically_RR found_VVN to_TO be_VBI functions_NN2 of_IO flow_NN1 geometry_NN1 ,_, Reynolds_NP1 number_NN1 ,_, and_CC Mach_NNU number_NN1 ._. 
+</s>
+<s>
+For_IF very-lowdensity_JJ flows_NN2 where_RRQ continuum_NN1 theory_NN1 does_VDZ not_XX apply_VVI ,_, the_AT kinetic_JJ theory_NN1 of_IO gases_NN2 predicts_VVZ that_CST these_DD2 same_DA aerodynamic_JJ coefficients_NN2 are_VBR functions_NN2 of_IO flow_NN1 geometry_NN1 ,_, Knudsen_NP1 number_NN1 ,_, and_CC Mach_NNU number_NN1 ._. 
+</s>
+<s>
+Because_CS continuum_NN1 theory_NN1 is_VBZ the_AT limiting_JJ case_NN1 for_IF kinetic_JJ theory_NN1 as_II the_AT Knudsen_NP1 number_NN1 approaches_VVZ zero_MC ,_, this_DD1 requires_VVZ the_AT existence_NN1 of_IO a_AT1 fundamental_JJ relation_NN1 between_II the_AT Reynolds_NP1 number_NN1 ,_, Mach_NNU number_NN1 ,_, and_CC Knudsen_NP1 number_NN1 ._. 
+</s>
+<s>
+Kinetic_JJ theory_NN1 provides_VVZ the_AT required_JJ result_NN1 in_II the_AT form_NN1 of_IO an_AT1 analytical_JJ relation_NN1 between_II the_AT dynamic_JJ viscosity_NN1 and_CC the_AT molecular_JJ mean_JJ free_JJ path_NN1 for_IF an_AT1 ideal_JJ gas_NN1 (_( 1_MC1 )_) where_RRQ R_ZZ1 is_VBZ the_AT ideal_JJ gas_NN1 constant_NN1 ,_, T_ZZ1 is_VBZ absolute_JJ temperature_NN1 ,_, and_CC is_VBZ the_AT gas_NN1 density_NN1 ._. 
+</s>
+<s>
+The_AT speed_NN1 of_IO sound_NN1 for_IF an_AT1 ideal_JJ gas_NN1 is_VBZ given_VVN by_II (_( 2_MC )_) where_RRQ is_VBZ the_AT traditional_JJ specific-heat_JJ ratio_NN1 ,_, which_DDQ is_VBZ 1.4_MC for_IF atmospheric_JJ air_NN1 ._. 
+</s>
+<s>
+Combining_VVG Eqs._NP1 (_( 1_MC1 )_) and_CC (_( 2_MC )_) ,_, the_AT kinematic_JJ viscosity_NN1 can_VM be_VBI expressed_VVN in_II31 terms_II32 of_II33 the_AT molecular_JJ mean_JJ free_JJ path_NN1 and_CC the_AT speed_NN1 of_IO sound_NN1 :_: (_( 3_MC )_) In_II31 view_II32 of_II33 Eq_NN1 ._. 
+</s>
+<s>
+(_( 3_MC )_) ,_, the_AT Reynolds_NP1 number_NN1 Re_NP1 can_VM be_VBI expressed_VVN as_CSA @_II ._. 
+</s>
+<s>
+Thus_RR ,_, the_AT Knudsen_NP1 number_NN1 for_IF an_AT1 ideal_JJ gas_NN1 can_VM be_VBI computed_VVN directly_RR from_II the_AT Mach_NNU number_NN1 and_CC Reynolds_NP1 number_NN1 :_: (_( 4_MC )_) For_IF the_AT limit_NN1 as_II the_AT Reynolds_NP1 number_NN1 approaches_VVZ zero_MC ,_, accurate_JJ analytical_JJ solutions_NN2 are_VBR available_JJ from_II both_DB2 continuum_NN1 theory_NN1 and_CC kinetic_JJ theory_NN1 ._. 
+</s>
+<s>
+Such_DA solutions_NN2 are_VBR commonly_RR referred_VVN to_II as_CSA creeping_JJ flow_NN1 solutions_NN2 ._. 
+</s>
+<s>
+For_REX21 example_REX22 ,_, a_AT1 solution_NN1 for_IF the_AT drag_VV0 on_II a_AT1 sphere_NN1 in_II creeping_JJ flow_NN1 as_CSA predicted_VVN from_II continuum_NN1 theory_NN1 was_VBDZ first_MD published_VVN by_II the_AT famous_JJ British_JJ mathematician_NN1 and_CC physicist_NN1 George_NP1 Gabriel_NP1 Stokes_NP1 in_II 1851_MC &lsqb;_( 15_MC &rsqb;_) ._. 
+</s>
+<s>
+This_DD1 remarkably_RR simple_JJ result_NN1 can_VM be_VBI written_VVN as_CSA (_( 5_MC )_) where_RRQ D_ZZ1 is_VBZ the_AT drag_VV0 on_II the_AT sphere_NN1 and_CC d_ZZ1 is_VBZ the_AT sphere_NN1 diameter_NN1 ._. 
+</s>
+<s>
+Results_NN2 obtained_VVN from_II the_AT kinetic_JJ theory_NN1 of_IO gases_NN2 are_VBR compared_VVN with_IW this_DD1 continuum_NN1 solution_NN1 in_II Fig._NN1 1_MC1 ._. 
+</s>
+<s>
+The_AT analytical_JJ results_NN2 presented_VVN in_II Fig._NN1 1_MC1 are_VBR taken_VVN from_II Phillips_NP1 &lsqb;_( 16_MC &rsqb;_) and_CC the_AT experimental_JJ results_NN2 are_VBR from_II Millikan_NP1 &lsqb;_( 17C19_FO &rsqb;_) ._. 
+</s>
+<s>
+The_AT six-moment_JJ solution_NN1 shown_VVN in_II Fig._NN1 1_MC1 agrees_VVZ very_RG well_RR with_IW experimental_JJ data_NN for_IF aerosol_NN1 particles_NN2 of_IO various_JJ shapes_NN2 ,_, provided_CS21 that_CS22 a_AT1 volume-weighted_JJ mean_JJ diameter_NN1 is_VBZ used_VVN for_IF d_ZZ1 ._. 
+</s>
+<s>
+Note_VV0 that_CST significant_JJ departure_NN1 from_II continuum_NN1 theory_NN1 begins_VVZ in_II the_AT Knudsen-number_JJ range_NN1 0.001C0.01_FO and_CC produces_VVZ a_AT1 20%_NNU reduction_NN1 in_II drag_VV0 at_II a_AT1 Knudsen_NN1 number_NN1 of_IO approximately_RR 0.1_MC ._. 
+</s>
+<s>
+At_II a_AT1 Knudsen_NN1 number_NN1 of_IO 1.0_MC ,_, the_AT drag_VV0 is_VBZ reduced_VVN by_II more_DAR than_CSN 75%_NNU relative_II21 to_II22 that_DD1 predicted_VVD from_II continuum_NN1 theory_NN1 ._. 
+</s>
+<s>
+The_AT creeping-flow_JJ solution_NN1 to_II the_AT Boltzmann_NP1 equation_NN1 is_VBZ independent_JJ of_IO Mach_NNU number_NN1 and_CC asymptotically_RR approaches_VVZ the_AT continuum_NN1 solution_NN1 in_II the_AT limit_NN1 as_II the_AT Knudsen_NP1 number_NN1 approaches_VVZ zero_MC ._. 
+</s>
+<s>
+If_CS we_PPIS2 choose_VV0 a_AT1 1%_NNU deviation_NN1 from_II the_AT continuum_NN1 solution_NN1 as_II an_AT1 approximate_JJ limiting_JJ boundary_NN1 for_IF continuum_NN1 theory_NN1 ,_, then_RT the_AT analytical_JJ results_NN2 presented_VVN in_II Fig._NN1 1_MC1 suggest_VV0 that_CST for_IF very_RG low_JJ Reynolds_NP1 numbers_NN2 ,_, continuum_NN1 theory_NN1 applies_VVZ only_RR for_IF Knudsen_NP1 numbers_NN2 less_RRR than_CSN about_RG 4_MC 103_MC ._. 
+</s>
+<s>
+In_II31 view_II32 of_II33 Eq_NN1 ._. 
+</s>
+<s>
+(_( 4_MC )_) ,_, this_DD1 gives_VVZ the_AT approximate_JJ limiting_JJ relation_NN1 (_( 6_MC )_) After_II rearranging_VVG ,_, the_AT creeping-flow_JJ limit_NN1 for_IF continuum_NN1 theory_NN1 could_VM be_VBI approximated_VVN from_II the_AT relation_NN1 Re_II ;_; for_IF Re_II 0_MC (_( 7_MC )_) Although_CS Eq_NN1 ._. 
+</s>
+<s>
+(_( 7_MC )_) strictly_RR applies_VVZ only_RR in_II the_AT limit_NN1 as_II the_AT Reynolds_NP1 number_NN1 approaches_VVZ zero_MC ,_, comparison_NN1 with_IW experimental_JJ data_NN has_VHZ shown_VVN that_CST creeping-flow_JJ analysis_NN1 is_VBZ generally_RR valid_JJ for_IF Reynolds_NP1 numbers_NN2 less_RRR than_CSN about_II 1_MC1 ._. 
+</s>
+<s>
+III_MC ._. 
+</s>
+<s>
+Boundary-Layer_JJ Limit_NN1 Although_CS the_AT relation_NN1 given_VVN by_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 7_MC )_) agrees_VVZ well_RR with_IW experimental_JJ data_NN for_IF very-low-Reynolds-number_JJ applications_NN2 ,_, such_II21 as_II22 flow_NN1 about_II aerosol_NN1 particles_NN2 ,_, it_PPH1 can_VM not_XX be_VBI used_VVN for_IF the_AT high_JJ Reynolds_NP1 numbers_NN2 typically_RR encountered_VVN in_II atmospheric_JJ flight_NN1 ._. 
+</s>
+<s>
+For_IF objects_NN2 moving_VVG through_II the_AT atmosphere_NN1 at_II high_JJ Reynolds_NP1 numbers_NN2 ,_, continuum_NN1 theory_NN1 first_MD begins_VVZ to_TO break_VVI down_RP with_IW failure_NN1 of_IO the_AT no-slip_JJ boundary_NN1 condition_NN1 in_II the_AT boundary_NN1 layer_NN1 near_II the_AT leading_JJ edge_NN1 of_IO objects_NN2 traveling_VVG at_II high_JJ altitudes_NN2 and_CC hypersonic_JJ airspeeds_NN2 &lsqb;_( 20_MC &rsqb;_) ._. 
+</s>
+<s>
+Classical_JJ continuum_NN1 theory_NN1 is_VBZ based_VVN on_II the_AT assumption_NN1 that_CST at_II an_AT1 interface_NN1 between_II a_AT1 fluid_NN1 and_CC a_AT1 solid_JJ wall_NN1 ,_, the_AT fluid_NN1 assumes_VVZ the_AT same_DA velocity_NN1 as_CSA the_AT wall_NN1 ._. 
+</s>
+<s>
+However_RR ,_, the_AT kinetic_JJ theory_NN1 of_IO gases_NN2 predicts_VVZ that_CST for_IF finite_JJ Knudsen_NN1 numbers_NN2 ,_, the_AT mean_JJ molecular_JJ velocity_NN1 is_VBZ not_XX equal_JJ to_II the_AT wall_NN1 velocity_NN1 at_II a_AT1 fluidCwall_NN1 interface_NN1 ._. 
+</s>
+<s>
+A_AT1 well-known_JJ solution_NN1 from_II kinetic_JJ theory_NN1 predicts_VVZ the_AT slip_NN1 velocity_NN1 at_II a_AT1 gasCwall_NN1 interface_NN1 from_II what_DDQ is_VBZ commonly_RR called_VVN the_AT ChapmanCEnskog_NN1 expansion_NN1 &lsqb;_( 9C14_FO &rsqb;_) ._. 
+</s>
+<s>
+From_II this_DD1 solution_NN1 ,_, which_DDQ applies_VVZ only_RR for_IF small_JJ Knudsen_NN1 numbers_NN2 ,_, the_AT tangential_JJ component_NN1 of_IO mean_JJ molecular_JJ velocity_NN1 at_II a_AT1 gasCwall_NN1 interface_NN1 can_VM be_VBI expressed_VVN as_CSA (_( 8_MC )_) where_RRQ u_ZZ1 is_VBZ the_AT component_NN1 of_IO mean_JJ molecular_JJ velocity_NN1 tangent_NN1 to_II the_AT wall_NN1 ,_, y_ZZ1 is_VBZ the_AT normal_JJ coordinate_NN1 measured_VVD outward_RL from_II the_AT wall_NN1 ,_, uw_NN1 is_VBZ the_AT tangential_JJ component_NN1 of_IO the_AT wall_NN1 velocity_NN1 ,_, and_CC is_VBZ what_DDQ is_VBZ commonly_RR called_VVN the_AT accommodation_NN1 coefficient_NN1 &lsqb;_( 9C14_FO &rsqb;_) ._. 
+</s>
+<s>
+Near_II the_AT leading_JJ edge_NN1 of_IO a_AT1 thin_JJ surface_NN1 moving_VVG through_II the_AT atmosphere_NN1 at_II high_JJ Reynolds_NP1 number_NN1 ,_, the_AT normal_JJ component_NN1 of_IO the_AT velocity_NN1 gradient_NN1 at_II the_AT wall_NN1 can_VM be_VBI obtained_VVN from_II the_AT well-known_JJ solution_NN1 of_IO Blasius_NP1 &lsqb;_( 21_MC &rsqb;_) :_: (_( 9_MC )_) After_II applying_VVG Eqs._NP1 (_( 3_MC )_) and_CC (_( 4_MC )_) ,_, this_DD1 is_VBZ readily_RR rearranged_VVN to_TO give_VVI (_( 10_MC )_) Using_VVG Eq_NN1 ._. 
+</s>
+<s>
+(_( 10_MC )_) in_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 8_MC )_) yields_VVZ p_NNU (_( 11_MC )_) The_AT relation_NN1 given_VVN by_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 11_MC )_) reduces_VVZ to_II the_AT classical_JJ no-slip_JJ continuum_NN1 boundary_NN1 condition_NN1 in_II the_AT limit_NN1 as_II the_AT Knudsen_NP1 number_NN1 approaches_VVZ zero_MC ._. 
+</s>
+<s>
+If_CS we_PPIS2 once_RR21 again_RR22 choose_VV0 a_AT1 1%_NNU deviation_NN1 from_II the_AT continuum_NN1 result_NN1 as_CSA our_APPGE approximate_JJ limiting_JJ boundary_NN1 for_IF continuum_NN1 theory_NN1 ,_, we_PPIS2 have_VH0 (_( 12_MC )_) Experiments_NN2 with_IW gases_NN2 over_II various_JJ solid_JJ and_CC liquid_JJ surfaces_NN2 show_VV0 that_CST @_II is_VBZ slightly_RR less_DAR than_CSN 1.0_MC ,_, usually_RR between_II about_RG 0.9_MC and_CC 1.0_MC &lsqb;_( 18,19_MC &rsqb;_) ._. 
+</s>
+<s>
+Thus_RR ,_, choosing_VVG a_AT1 midrange_NN1 value_NN1 for_IF @_II and_CC applying_VVG Eq_NN1 ._. 
+</s>
+<s>
+(_( 4_MC )_) ,_, the_AT continuum_NN1 constraint_NN1 given_VVN by_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 12_MC )_) can_VM be_VBI written_VVN as_CSA (_( 13_MC )_) After_II rearranging_VVG ,_, the_AT boundary-layer_JJ limit_NN1 for_IF continuum_NN1 theory_NN1 could_VM be_VBI approximated_VVN from_II the_AT relation_NN1 (_( 14_MC )_) where_RRQ the_AT Mach_NNU number_NN1 and_CC Reynolds_NP1 number_NN1 are_VBR based_VVN on_II the_AT free_JJ stream_NN1 airspeed_NN1 and_CC the_AT minimum_JJ significant_JJ characteristic_JJ length_NN1 is_VBZ measured_VVN parallel_RR with_IW the_AT boundary_NN1 layer_NN1 ._. 
+</s>
+<s>
+Although_CS Eq_NN1 ._. 
+</s>
+<s>
+(_( 14_MC )_) strictly_RR applies_VVZ only_RR in_II the_AT limit_NN1 as_II the_AT Reynolds_NP1 number_NN1 approaches_VVZ infinity_NN1 ,_, comparison_NN1 with_IW experimental_JJ data_NN has_VHZ shown_VVN that_CST boundary-layer_JJ analysis_NN1 is_VBZ generally_RR valid_JJ for_IF Reynolds_NP1 numbers_NN2 greater_JJR than_CSN about_RG 2000_MC ._. 
+</s>
+<s>
+IV_MC ._. 
+</s>
+<s>
+Simple_JJ Approximation_NN1 for_IF the_AT Transition_NN1 In_II the_AT Reynolds-number_JJ transition_NN1 region_NN1 where_CS neither_RR the_AT creeping-flow_JJ approximation_NN1 nor_CC the_AT boundary-layer_JJ approximation_NN1 is_VBZ valid_JJ ,_, it_PPH1 is_VBZ very_RG difficult_JJ to_TO obtain_VVI analytical_JJ solutions_NN2 to_II the_AT NavierC_NP1 Stokes_NP1 equations_NN2 ._. 
+</s>
+<s>
+However_RR ,_, a_AT1 very_RG simple_JJ relation_NN1 for_IF interpolating_VVG between_II Eqs._NP1 (_( 7_MC )_) and_CC (_( 14_MC )_) is_VBZ given_VVN by_II q_ZZ1 (_( 15_MC )_) Equation_NN1 (_( 15_MC )_) has_VHZ no_AT analytical_JJ basis_NN1 except_II21 for_II22 the_AT fact_NN1 that_CST it_PPH1 exhibits_VVZ the_AT correct_JJ asymptotic_JJ behavior_NN1 for_IF small_JJ and_CC large_JJ Reynolds_NP1 numbers_NN2 ,_, as_CSA specified_VVN by_II Eqs._NP1 (_( 7_MC )_) and_CC (_( 14_MC )_) ,_, respectively_RR ._. 
+</s>
+<s>
+This_DD1 relation_NN1 is_VBZ shown_VVN graphically_RR in_II Fig._NN1 2_MC in_II31 comparison_II32 with_II33 its_APPGE two_MC asymptotes_NN2 ._. 
+</s>
+<s>
+Note_VV0 that_DD1 Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) agrees_VVZ closely_RR with_IW Eq_NN1 ._. 
+</s>
+<s>
+(_( 7_MC )_) at_II Reynolds_NP1 numbers_NN2 below_II 1_MC1 ,_, and_CC it_PPH1 agrees_VVZ closely_RR with_IW Eq_NN1 ._. 
+</s>
+<s>
+(_( 14_MC )_) at_II Reynolds_NP1 numbers_NN2 above_II 2000_MC ._. 
+</s>
+<s>
+Also_RR notice_VV0 that_CST this_DD1 relation_NN1 predicts_VVZ that_DD1 continuum_NN1 theory_NN1 can_VM be_VBI applied_VVN to_II subsonic_JJ flows_NN2 at_II any_DD Reynolds_NP1 number_NN1 above_II 4000_MC ._. 
+</s>
+<s>
+At_II Reynolds_NP1 numbers_NN2 above_II 106_MC ,_, continuum_NN1 theory_NN1 is_VBZ predicted_VVN to_TO be_VBI valid_JJ for_IF hypersonic_JJ Mach_NNU numbers_NN2 up_RG21 to_RG22 18_MC and_CC above_RL ._. 
+</s>
+<s>
+Results_NN2 obtained_VVN from_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) predict_VV0 that_DD1 continuum_NN1 theory_NN1 can_VM be_VBI applied_VVN for_IF Mach-number_NP1 and_CC Reynolds-number_JJ combinations_NN2 in_II the_AT region_NN1 belowand_NN1 to_II the_AT right_NN1 of_IO the_AT solid_JJ line_NN1 in_II Fig._NN1 2_MC ._. 
+</s>
+<s>
+For_IF a_AT1 given_JJ altitude_NN1 and_CC Mach_NNU number_NN1 ,_, Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) could_VM be_VBI used_VVN to_TO determine_VVI a_AT1 minimum_JJ permissible_JJ characteristic_JJ length_NN1 ._. 
+</s>
+<s>
+Similarly_RR ,_, for_IF a_AT1 given_JJ characteristic_JJ length_NN1 and_CC Mach_NNU number_NN1 ,_, Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) could_VM be_VBI used_VVN to_TO determine_VVI a_AT1 maximum_JJ permissible_JJ altitude_NN1 ._. 
+</s>
+<s>
+For_REX21 example_REX22 ,_, Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) predicts_VVZ that_CST at_II a_AT1 Mach_NNU number_NN1 of_IO 0.1_MC ,_, continuum_NN1 theory_NN1 begins_VVZ to_TO break_VVI down_RP for_IF Reynolds_NP1 numbers_NN2 below_RL about_RG 90_MC ._. 
+</s>
+<s>
+Thus_RR ,_, for_IF a_AT1 Mach_NNU number_NN1 of_IO 0.1_MC at_II standard_JJ sea_NN1 level_NN1 ,_, Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) predicts_VVZ a_AT1 minimum_JJ permissible_JJ characteristic_JJ length_NN1 of_IO 0.0015_MC in._NNU (_( 0.038_MC mm_NNU )_) ,_, which_DDQ is_VBZ less_DAR than_CSN one-half_MF the_AT thickness_NN1 of_IO a_AT1 typical_JJ sheet_NN1 of_IO paper_NN1 ._. 
+</s>
+<s>
+At_II 100,000_MC ft_NNU ,_, a_AT1 Reynolds_NP1 number_NN1 of_IO 90_MC with_IW a_AT1 Mach_NNU number_NN1 of_IO 0.1_MC corresponds_VVZ to_II a_AT1 minimum_JJ permissible_JJ characteristic_JJ length_NN1 of_IO 0.10_MC in._NNU (_( 2.5_MC mm_NNU )_) ._. 
+</s>
+<s>
+Similarly_RR ,_, for_IF a_AT1 Mach_NNU number_NN1 of_IO 0.1_MC and_CC a_AT1 characteristic_JJ length_NN1 of_IO 1_MC1 ft_NNU ,_, the_AT predicted_JJ maximum_JJ permissible_JJ altitude_NN1 is_VBZ about_RG 217,000_MC ft_NNU ._. 
+</s>
+<s>
+The_AT approximate_JJ continuum-theory_JJ constraint_NN1 given_VVN by_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) can_VM also_RR be_VBI expressed_VVN as_II a_AT1 relation_NN1 between_II the_AT Knudsen_NP1 number_NN1 and_CC Mach_NNU number_NN1 ._. 
+</s>
+<s>
+Using_VVG Eq_NN1 ._. 
+</s>
+<s>
+(_( 4_MC )_) in_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) and_CC rearranging_VVG yields_NN2 (_( 16_MC )_) This_DD1 relation_NN1 is_VBZ shown_VVN graphically_RR in_II Fig._NN1 3_MC compared_VVN with_IW the_AT creeping-flow_NN1 and_CC boundary-layer_JJ asymptotes_NN2 ,_, which_DDQ are_VBR given_VVN by_II Eqs._NP1 (_( 6_MC )_) and_CC (_( 13_MC )_) ,_, respectively_RR ._. 
+</s>
+<s>
+Because_CS the_AT molecular_JJ mean_JJ free_JJ path_NN1 in_II the_AT standard_JJ atmosphere_NN1 depends_VVZ only_RR on_II altitude_NN1 ,_, Eq_NN1 ._. 
+</s>
+<s>
+(_( 16_MC )_) can_VM be_VBI used_VVN to_TO predict_VVI the_AT minimum_JJ significant_JJ characteristic_JJ dimension_NN1 for_IF the_AT application_NN1 of_IO continuum_NN1 theory_NN1 as_II a_AT1 function_NN1 of_IO Mach_NNU number_NN1 and_CC altitude_NN1 ._. 
+</s>
+<s>
+Such_DA results_NN2 are_VBR shown_VVN in_II Fig._NN1 4_MC ._. 
+</s>
+<s>
+For_IF low_JJ Mach_NNU numbers_NN2 at_II sea_NN1 level_NN1 ,_, the_AT predicted_JJ minimum_JJ permissible_JJ significant_JJ characteristic_JJ dimension_NN1 is_VBZ about_RG 16_MC m_NNO ._. 
+</s>
+<s>
+Even_RR at_II 100,000_MC ft_NNU and_CC Mach_NNU 10_MC ,_, the_AT minimum_JJ permissible_JJ significant_JJ characteristic_JJ dimension_NN1 is_VBZ still_RR less_DAR than_CSN 0.3_MC ft_NNU ._. 
+</s>
+<s>
+Of_RR21 course_RR22 ,_, these_DD2 relations_NN2 are_VBR only_RR intended_VVN as_II a_AT1 first_MD approximation_NN1 ,_, so_RR continuum_NN1 theory_NN1 should_VM be_VBI used_VVN with_IW caution_NN1 near_II these_DD2 limits_NN2 ._. 
+</s>
+<s>
+The_AT relation_NN1 given_VVN by_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 4_MC )_) can_VM also_RR be_VBI used_VVN to_TO express_VVI the_AT continuum_NN1 constraint_NN1 given_VVN by_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) as_II a_AT1 relation_NN1 between_II the_AT Knudsen_NP1 number_NN1 and_CC Reynolds_NP1 number_NN1 :_: Re_II q_ZZ1 (_( 17_MC )_) This_DD1 relation_NN1 is_VBZ shown_VVN graphically_RR in_II Fig._NN1 5_MC compared_VVN with_IW several_DA2 lines_NN2 of_IO constant_JJ Mach_NNU number_NN1 ._. 
+</s>
+<s>
+These_DD2 Mach_NNU number_NN1 contours_NN2 are_VBR shown_VVN as_CSA solid_JJ lines_NN2 in_II the_AT region_NN1 where_CS continuum_NN1 theory_NN1 is_VBZ predicted_VVN to_TO be_VBI valid_JJ ,_, and_CC they_PPHS2 are_VBR shown_VVN as_CSA dashed_JJ lines_NN2 in_II the_AT region_NN1 where_CS kinetic_JJ theory_NN1 should_VM be_VBI considered_VVN ._. 
+</s>
+<s>
+For_IF a_AT1 given_JJ geometry_NN1 ,_, the_AT Knudsen_NP1 number_NN1 increases_VVZ with_IW altitude_NN1 ._. 
+</s>
+<s>
+Thus_RR ,_, the_AT vertical_JJ axis_NN1 in_II Fig._NN1 5_MC could_VM be_VBI viewed_VVN as_II a_AT1 dimensionless_JJ altitude_NN1 ._. 
+</s>
+<s>
+It_PPH1 is_VBZ important_JJ to_TO recognize_VVI that_DD1 for_IF fixed_JJ geometry_NN1 and_CC Mach_NNU number_NN1 ,_, the_AT Reynolds_NP1 number_NN1 always_RR decreases_VVZ with_IW increasing_JJ altitude_NN1 ._. 
+</s>
+<s>
+V._II Conclusions_NN2 The_AT low-Reynolds-number_JJ limit_NN1 for_IF the_AT approximate_JJ continuumtheory_JJ constraint_NN1 expressed_VVN in_II Eqs._NP1 (_( 15C17_FO )_) is_VBZ based_VVN on_II considerable_JJ analytical_JJ and_CC experimental_JJ work_NN1 that_CST has_VHZ been_VBN carried_VVN out_RP in_II the_AT field_NN1 of_IO aerosol_NN1 technology_NN1 ._. 
+</s>
+<s>
+Thus_RR ,_, these_DD2 constraints_NN2 should_VM provide_VVI reasonable_JJ results_NN2 for_IF estimating_VVG the_AT limits_NN2 of_IO continuum_NN1 theory_NN1 at_II low_JJ Reynolds_NP1 numbers_NN2 ._. 
+</s>
+<s>
+At_II high_JJ Reynolds_NP1 numbers_NN2 ,_, the_AT approximate_JJ continuum_NN1 constraint_NN1 expressed_VVN in_II Eqs._NP1 (_( 15C17_FO )_) is_VBZ based_VVN on_II the_AT Blasius_NP1 solution_NN1 given_VVN by_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 9_MC )_) ._. 
+</s>
+<s>
+This_DD1 solution_NN1 assumes_VVZ a_AT1 laminar_JJ boundary_NN1 layer_NN1 ._. 
+</s>
+<s>
+Experiments_NN2 have_VH0 shown_VVN that_DD1 boundary_NN1 layers_NN2 remain_VV0 laminar_NN1 only_RR for_IF Reynolds_NP1 numbers_NN2 up_II21 to_II22 about_II 106_MC ._. 
+</s>
+<s>
+At_II Reynolds_NP1 numbers_NN2 greater_JJR than_CSN one_MC1 million_NNO ,_, boundary_NN1 layers_NN2 typically_RR transition_NN1 to_II turbulent_JJ flow_NN1 ._. 
+</s>
+<s>
+Thus_RR ,_, we_PPIS2 should_VM not_XX expect_VVI the_AT continuum_NN1 constraint_NN1 developed_VVN here_RL to_TO apply_VVI at_II Reynolds_NP1 numbers_NN2 greater_JJR than_CSN 106_MC ._. 
+</s>
+<s>
+However_RR ,_, because_CS the_AT Reynolds_NP1 number_NN1 decreases_VVZ with_IW altitude_NN1 for_IF a_AT1 fixed_JJ Mach_NNU number_NN1 ,_, Fig._NN1 5_MC shows_VVZ that_CST the_AT Reynolds_NP1 number_NN1 will_VM be_VBI reduced_VVN to_II less_DAR than_CSN 106_MC before_II reaching_VVG the_AT limiting_JJ altitude_NN1 for_IF continuum_NN1 theory_NN1 ,_, except_II21 for_II22 high_JJ hypersonic_JJ Mach_NNU numbers_NN2 ._. 
+</s>
+<s>
+From_II Eq_NN1 ._. 
+</s>
+<s>
+(_( 15_MC )_) ,_, the_AT limiting_JJ Mach_NNU number_NN1 corresponding_VVG to_II a_AT1 Reynolds_NP1 number_NN1 of_IO 106_MC is_VBZ about_RG 18.2_MC ._. 
+</s>
+<s>
+Thus_RR ,_, Eqs._NP1 (_( 15C17_FO )_) should_VM provide_VVI reasonable_JJ results_NN2 for_IF high_JJ Reynolds_NP1 numbers_NN2 and_CC Mach_NNU numbers_NN2 less_DAR than_CSN 18_MC ._. 
+</s>
+<s>
+In_II the_AT transition_NN1 region_NN1 between_II low_JJ and_CC high_JJ Reynolds_NP1 numbers_NN2 ,_, the_AT approximate_JJ continuum-theory_JJ constraint_NN1 presented_VVD here_RL is_VBZ based_VVN on_II a_AT1 simple_JJ interpolation_NN1 ._. 
+</s>
+<s>
+Thus_RR ,_, Eqs._NP1 (_( 15C17_FO )_) should_VM be_VBI used_VVN with_IW greater_JJR caution_NN1 for_IF transition_NN1 Reynolds_NP1 numbers_NN2 between_II about_II 1_MC1 and_CC 2000_MC ._. 
+</s>
+<s>
+These_DD2 relations_NN2 are_VBR intended_VVN only_RR as_II a_AT1 first_MD approximation_NN1 ,_, and_CC continuum_NN1 theory_NN1 should_VM always_RR be_VBI used_VVN with_IW caution_NN1 near_II these_DD2 limits_NN2 ._. 
+</s>

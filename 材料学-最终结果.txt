@@ -1,0 +1,134 @@
+we will call:1
+we found that:2
+we will obtain:1
+we excluded:1
+we find to:1
+we propose:1
+we should mention that:1
+we prepared:1
+we still can identify:1
+we discuss:1
+we propose that:1
+we have demonstrated:1
+we also investigate in:1
+we presume that:1
+we presented:1
+we will briefly summarize:1
+we have found:1
+we can see that:2
+we must remove:1
+we recall that:1
+we plan to:1
+we find that:2
+we can calculate:1
+we also have shown:1
+we have performed:2
+we fabricated:1
+we examine:1
+we will focus on:2
+we examined:1
+we first assign:1
+we see that:3
+we find:2
+we expect that:1
+we will not discuss in:1
+we sought to:1
+we subjected:1
+we contend that:2
+we do:1
+we introduce:3
+we looked at:1
+we have utilized:1
+we have achieved:1
+we report:3
+we estimate:1
+we plot as:1
+we observe:1
+we end up:1
+we calculated:1
+we start by:1
+we employ:2
+we note that:1
+we refer to:1
+we consider:2
+we assume for:1
+we attribute:1
+we assign:1
+we chose:3
+we assume that:2
+we have studied:1
+we infer that:1
+we start with:1
+we measure:1
+we can approximate:1
+we assess:1
+we utilize:1
+we described:1
+we have shown:2
+we confirmed:1
+we will refer to:1
+we would like to:1
+we could show that:1
+we take:2
+we suspect:1
+we employed:2
+we have incorporated:1
+we demonstrated that:1
+we suspect that:1
+we have calculated:2
+we now present:1
+we present:1
+we will find that:1
+we know:1
+we study:1
+we fabricate:1
+we modified:1
+we found:2
+we have seen:2
+we examine in:1
+we define:1
+we decided to:2
+we experimentally investigate:1
+we observed:1
+we establish:1
+we need to:1
+we plot:5
+we normalize:1
+we therefore define:1
+we first tried:1
+we can simply avoid normalizing:1
+we correlate:1
+we analyze:2
+we have overcome:1
+we combine:1
+we are in the position to evaluate:1
+we used:3
+we analyse:1
+we can use:1
+we can see from:1
+we finally study:1
+we could set:1
+we confirmed that:1
+we have used:5
+we have:7
+we then tried:1
+we obtained:1
+we assume:2
+we applied:1
+we did:2
+we plotted:1
+we now compare:1
+we have divided:1
+we deal with:1
+we investigate:1
+we obtain:3
+we can take:1
+we want to:3
+we can bring:1
+we compare:2
+we will discuss:1
+we conclude that:2
+we found of:1
+we see:4
+we were:1
+we need:3
