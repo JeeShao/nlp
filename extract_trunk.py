@@ -122,20 +122,42 @@ def tran_sentense(data):
                 while beg>=f and (vol[i][beg] not in [',','.','!','?',':','"','-','CC'] or da[i][beg].upper() in ['AND','OR']): #This endeavour assists and is assisted by
                     beg=beg-1
                 #2:确定后面的单词
+                if j<(len(vol[i])-4) and da[i][j+1].upper() in ['AND','OR','BUT'] and vol[i][j+2].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ']:#She laughed and eat
+                    end=j+2
+                    if vol[i][j+3].upper() in ['TO','IN'] or da[i][j+3]=='THAT':#She laughed and look at
+                        end=end+1
+                    elif vol[i][j+3].upper() in ['PRP','PRP$','NN','NNS','NNP','NNPS'] and (vol[i][j+4].upper() in ['TO','IN'] or da[i][j+4]=='THAT'):#She laughed and tell him to
+                        end=end+2
+                elif j<(len(vol[i])-4) and da[i][j].upper() in ['IS','ARE','WAS','WERE'] and (vol[i][j+3].upper() in ['TO','IN'] or da[i][j+3].upper()=='THAT'):#It is [immediately apparent] that
+                    end = j+3
+                elif j<(len(vol[i])-4) and da[i][j].upper() in ['IS','ARE','WAS','WERE'] and (vol[i][j+4].upper() in ['TO','IN'] or da[i][j+4].upper()=='THAT'):#It is [therefore closely related] to
+                    end = j+4
                 #have/has/had (not) been……
-                if j<(len(vol[i])-3) and da[i][j].upper() in ['HAVE','HAS','HAD','DO','DOES','DID'] and vol[i][j+1] in ['VB','VBD','VBG','VBN','VBP','VBZ']: #I do/have been/decided
+                elif j<(len(vol[i])-3) and da[i][j].upper() in ['HAVE','HAS','HAD','DO','DOES','DID','IS','ARE','WAS','WERE'] and vol[i][j+1].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ']: #I do/have been/decided
                     end = j+1
-                    if vol[i][j+2] in ['TO','IN'] or da[i][j+2].upper()=='THAT':#have focused on
+                    if vol[i][j+2].upper() in ['RB','RBR','RBS'] and (vol[i][j+3].upper() in ['TO','IN'] or da[i][j+3].upper()=='THAT'):#It_PRP was_VBD developed_VBN originally_RB to_TO
+                        end = end+2 
+                    elif vol[i][j+2].upper() in ['TO','IN'] or da[i][j+2].upper()=='THAT':#have focused on
                         end += 1
-                elif j<(len(vol[i])-3) and da[i][j].upper() in ['HAVE','HAS','HAD','DO','DOES','DID'] and vol[i][j+1]=='RB' and vol[i][j+2] in ['VB','VBD','VBG','VBN','VBP','VBZ']:#I do/have not been/decided
+                elif j<(len(vol[i])-3) and da[i][j].upper() in ['HAVE','HAS','HAD','DO','DOES','DID','IS','ARE','WAS','WERE'] and vol[i][j+1].upper()=='RB' and vol[i][j+2].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ']:#I do/have not been/decided
                     end = j+2
-                    if vol[i][j+3] in ['TO','IN'] or da[i][j+3].upper()=='THAT':#have not focused on
+                    if vol[i][j+2].upper() in ['RB','RBR','RBS'] and (vol[i][j+3].upper() in ['TO','IN'] or da[i][j+3].upper()=='THAT'):#It_PRP was_VBD not_RB developed_VBN originally_RB to_TO
+                        end = end+2
+                    elif vol[i][j+3] in ['TO','IN'] or da[i][j+3].upper()=='THAT':#have not focused on
                         end += 1
                 #动词+动词+TO/that
                 elif j<(len(vol[i])-3) and (vol[i][j+1].upper() in ['TO','IN'] or da[i][j+1].upper()=='THAT'): # I think that 
                     end=j+1
+                elif j<(len(vol[i])-3) and (vol[i][j+2].upper() in ['TO','IN'] or da[i][j+2].upper()=='THAT'): # The results show differences in 
+                    end=j+2
+                elif j<(len(vol[i])-3) and (vol[i][j+3].upper() in ['TO','IN'] or da[i][j+3].upper()=='THAT'): # The results show significant differences in 
+                    end=j+3
                 # if j<(len(vol[i])-3) and vol[i][j+1].upper() in ['VBDR','VBDZ','VBI','VBM','VBR','VBZ','VD0','VDD','VDZ','VH0','VHD','VHZ','VV0','VVN','VVD','VVI','VVZ'] and da[i][j+2].upper() in ['TO','THAT']:
-                elif j<(len(vol[i])-3) and vol[i][j+1].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ','JJ',] and (da[i][j+2].upper() in ['TO','THAT'] or vol[i][j+2].upper()=='IN'): # It is important to
+                elif j<(len(vol[i])-3) and vol[i][j+1].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ','JJ','JJR','JJS','RB','RBR','RBS'] and (da[i][j+2].upper() in ['TO','THAT'] or vol[i][j+2].upper()=='IN'): # It is important to
+                    end=j+2
+                elif j<(len(vol[i])-4) and da[i][j+1]=='NOT' and vol[i][j+2].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ','JJ','JJR','JJS','RB','RBR','RBS'] and (da[i][j+3].upper() in ['TO','THAT'] or vol[i][j+3].upper()=='IN'): # It is not important to
+                    end=j+3
+                elif j<(len(vol[i])-2) and vol[i][j+1].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ'] and vol[i][j+2].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ']: #Suggestions for the application of this approach to language teaching [are offered]
                     end=j+2
                 elif j==(len(vol[i])-2) and vol[i][j+1].upper() in ['VB','VBD','VBG','VBN','VBP','VBZ']:#句尾
                     end=j+1
@@ -177,7 +199,7 @@ if __name__=='__main__':
     all_dirs, all_files, all_names = getdir(orgDir)
     for i in all_dirs: #创建子目录
         mkdir(os.path.join(toDir,i)) 
-    for i in all_files[0:1]: 
+    for i in all_files: 
         print(i)
         file_route = i.split('\\')
         file_route[0] = toDir
