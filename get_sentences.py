@@ -45,10 +45,12 @@ def splitSentence(file):
     返回文章的分句list
     '''
     data = []
+    sen_list=[]
     tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
     f=open(file,'r')
     lines=f.readlines()
     for line in lines:
+        sen_list=[]
         line = line.strip().split()
         if len(line):  #删除每段前后<>
             for i in [0,-1]:
@@ -57,8 +59,18 @@ def splitSentence(file):
             line = ' '.join(line).strip()
             # if len(line):
             sentences = tokenizer.tokenize(line)
-            sentences = [i for i in sentences if len(i.strip().split())>1] #删除只有一个词的句子
-            data.extend(sentences)
+            
+            #合并句末有et al或etc的句子
+            for i,element in enumerate(sentences):
+                sentens_list=element.strip().split()
+                if len(sentens_list)>1:
+                    if ('etc_' in sentens_list[-1] or ('al_' in sentens_list[-1] and 'et_' in sentens_list[-2])) and i<len(sentences)-1:#句末有et al 或 etc的句子补上下一句
+                        sentences[i]=" ".join([sentences[i],sentences[i+1]])
+                        sentences[i+1]=''
+                    sen_list.append(sentences[i])
+
+            # sentences = [i for i in sentences if len(i.strip().split())>1] #删除只有一个词的句子
+            data.extend(sen_list)
     f.close()
     return data
     # for i in data:
