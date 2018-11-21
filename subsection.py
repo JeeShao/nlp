@@ -1,25 +1,12 @@
 import os
 import csv
 import time
+from  Util import getdir,mkdir
 tagDir = "附码语料库"
 sectionDir = "分段语料库"
 csvHeader = ["Filename","Title","Author","Abstract","Introduction",
 			 "Method","Discussion","Conclusion","Acknowledgment"]
 
-def mkdir(path):
-    # 去除首尾空格
-    path=path.strip()
-    # 去除尾部 \ 符号
-    path=path.rstrip("\\")
-    # 判断路径是否存在
-    isExists=os.path.exists(path)
-    if not isExists:
-        os.makedirs(path) 
-        print (path+' 创建成功')
-        return True
-    else:
-        print (path+' 目录已存在')
-        return False
 def cutEssay(orgFile,targetDir,logFile):
 	count_abstract_JJ,count_acknowledgment_JJ = 0,0
 	dicts = {'<title_NN>':'</title_NNP>',
@@ -60,11 +47,12 @@ def cutEssay(orgFile,targetDir,logFile):
 				dict_key = line_list[0]
 				ff=open(os.path.join(targetDir,os.path.basename(orgFile).split('.')[0]+'_'+line_list[0].split('_')[0][1:]+'.txt'),'w')
 			ff.write(line)
+
 			ff.write('\n')
 			if line_list[-1] in [dicts[dict_key],dicts[dict_key]+"\n"]:
 				ff.close()
-	print(count_abstract_JJ,' ',count_acknowledgment_JJ)
-	print(data)
+	# print(count_abstract_JJ,' ',count_acknowledgment_JJ)
+	# print(data)
 	data['Filename'] = os.path.basename(orgFile).split('.')[0]
 	with open(logFile,'a',newline='') as f:
 		writer = csv.DictWriter(f, fieldnames=csvHeader)
@@ -74,7 +62,7 @@ def cutEssay(orgFile,targetDir,logFile):
 		f.close()
 		
 
-def main():
+def subsection():
 	mkdir(sectionDir)
 	logFile = os.path.join(sectionDir,"log.csv")
 	with open(logFile, "w", newline='') as f:
@@ -90,11 +78,12 @@ def main():
 			new_pathname = os.path.join(sectionDir, subDir)
 			mkdir(new_pathname)
 			for filename in os.listdir(pathname):
-				orgFile = os.path.join(pathname,filename)
-				targetDir = os.path.join(new_pathname,filename.split('.')[0])
-				mkdir(targetDir)
-				cutEssay(orgFile,targetDir,logFile)
+				if os.path.splitext(filename)[1]=='.txt':
+					orgFile = os.path.join(pathname,filename)
+					targetDir = os.path.join(new_pathname,filename.split('.')[0])
+					mkdir(targetDir)
+					cutEssay(orgFile,targetDir,logFile)
 
 if __name__ == '__main__':
-	main()
+	subsection()
 	

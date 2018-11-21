@@ -4,6 +4,7 @@ import csv
 import time
 import nltk
 import traceback
+from  Util import getdir,mkdir
 from nltk.tag import pos_tag, pos_tag_sents
 from nltk.tokenize import sent_tokenize, word_tokenize, wordpunct_tokenize
 
@@ -62,20 +63,7 @@ def posTagging(orgFile,targetFile):
 	return count_org,count
 	print("原文总词数",count_org," 附码后总词数：",count)	
 
-def mkdir(path):
-    # 去除首位空格
-    path=path.strip()
-    # 去除尾部 \ 符号
-    path=path.rstrip("\\")
-    # 判断路径是否存在
-    isExists=os.path.exists(path)
-    if not isExists:
-        os.makedirs(path) 
-        print (path+' 创建成功')
-        return True
-    else:
-        print (path+' 目录已存在')
-        return False
+
 
 def markPos():
 	csvHeader = ["文件名","源文件词数","附码文件词数","词数差","差词占比"]
@@ -84,7 +72,7 @@ def markPos():
 		pathname = os.path.join(orgDir, subDir)
 		if (os.path.isdir(pathname)):
 			new_pathname = os.path.join(tagDir, subDir)
-			mkdir(new_pathname):
+			mkdir(new_pathname)
 			logFile = os.path.join(new_pathname,"log.csv")
 			with open(logFile, "w", newline='') as f:
 			        # with open(birth_weight_file, "w") as f:

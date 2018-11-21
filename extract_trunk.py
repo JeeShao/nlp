@@ -1,7 +1,5 @@
 #-*-coding:utf-8-*-
-import sys
-from  Util import getdir
-import os
+from  Util import getdir,mkdir
 
 def readtxt(path):
     '''
@@ -49,21 +47,6 @@ def data_split(data):
         voc.append(arg2)
     return dat,voc
 
-
-def mkdir(path):
-    # 去除首位空格
-    path=path.strip()
-    # 去除尾部 \ 符号
-    path=path.rstrip("\\")
-    # 判断路径是否存在
-    isExists=os.path.exists(path)
-    if not isExists:
-        os.makedirs(path) 
-        print (path+' 创建成功')
-        return True
-    else:
-        print (path+' 目录已存在')
-        return False
 
 def tans_sentence(data):
     '''
@@ -214,9 +197,7 @@ def tran_sentense(data):
     not_trunks = len(vol)-trunks_num
     return new_data,not_trunks
 
-
-
-if __name__=='__main__':
+def extract_trunk():
     orgDir = "分句语料库"
     toDir  = "主干语料库"
     vbDir  = "句首动词文件" 
@@ -237,3 +218,5 @@ if __name__=='__main__':
         print(i+"文件没有主干行数：",not_trunks)
 
         save_to_txt(pre_data, file, vbFile)
+if __name__=='__main__':
+    extract_trunk()
