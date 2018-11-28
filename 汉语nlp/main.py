@@ -15,11 +15,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 def mkdir(path):
-    # 去除首位空格
     path=path.strip()
     # 去除尾部 \ 符号
     path=path.rstrip("\\")
-    # 判断路径是否存在
     isExists=os.path.exists(path)
     if not isExists:
         os.makedirs(path) 
@@ -119,51 +117,42 @@ def get_abstract_by_url(driver,url,year_dir):
 					file = os.path.join(year_dir,title_name.replace('/','').replace('?','').replace(':','')+'.txt')#去除文章名中的'/'  去除标点=> ''.join(e for e in key if e.isalnum())
 					print(file)
 					save_abstract(file,content)
-					# dicts[title_name]=content
-	# return dicts
 
 def main():
-	BASE_URL = "http://yuanjian.cnki.net/CJFD/Detail/Index/WYXY"#上海外国语大学学报	
+	URL = {"a外语教学与研究":"http://yuanjian.cnki.net/CJFD/Detail/Index/WJYY",
+	       "b上海外国语大学学报":"http://yuanjian.cnki.net/CJFD/Detail/Index/WYXY"}
 	PATH = '摘要文件'
 	mkdir(PATH)
-	YEAR=2009
-	y=int(2018-YEAR+1)
-
 	driver = webdriver.Chrome()  #指定使用的浏览器，初始化webdriver
 	driver.implicitly_wait(10) # seconds
-	# driver.get(BASE_URL)  #请求网页 	
-	# base_page = driver.current_window_handle	        
-	# soup = BeautifulSoup(driver.page_source, 'lxml')
-	# journal_years = soup.find('div',class_="part03").find_all('span')[1:11]#获取近10年
-
-	# # elem = driver.find_element_by_class_name("current")
-	# year_elems = driver.find_elements_by_xpath("//div[@class='part03']/span")[1:11]#获取近10年
-	# for year in year_elems:
-	# 	print("---",year)
-	for n in range(9,11):#遍历每一年期刊
-		driver.get(BASE_URL)  #请求网页 	
-		soup = BeautifulSoup(driver.page_source, 'lxml')
-		journal_years = soup.find('div',class_="part03").find_all('span')[1:11]#获取近10年
-		year = driver.find_element_by_xpath("//div[@class='part03']/span[%d]"%(n+1))
-		print(year.text)
-		year_dir=os.path.join(PATH,year.text.split(' ')[0])#分割“2018 年”=>2018
-		mkdir(year_dir) #创建期刊年文件夹
-		for i in os.listdir(year_dir):#清空原本文章文件
-			delete_file_folder(os.path.join(year_dir,i))
-		urls = get_terms_url_by_year(driver,year)#urls=>每个期刊的入口url
-		for url in urls:#遍历每一期
-			print(url)
-			get_abstract_by_url(driver,url,year_dir)#获取每期期刊的所有文章的摘要 {"name":"abstract",……}
-			# for key, value in abstract_dict.items():
-			# 	file = os.path.join(year_dir,key.replace('/','').replace('?','').replace(':','')+'.txt')#去除文章名中的'/'  去除标点=> ''.join(e for e in key if e.isalnum())
-			# 	print(file)
-			# 	save_abstract(file,value)
-
+	start_year=2018 #最近的年
+	end_year = 2017
+	start=int(2018-start_year+1)
+	end=int(2018-end_year+2)
+	for journal_name,journal_url in URL.items():
+		print(journal_name)
+		journal_dir = os.path.join(PATH,journal_name)
+		mkdir(journal_dir)
+		BASE_URL = journal_url#上海外国语大学学报
+		
+		for n in range(start,end):#遍历每一年期刊
+			driver.get(BASE_URL)  #请求网页 	
+			soup = BeautifulSoup(driver.page_source, 'lxml')
+			journal_years = soup.find('div',class_="part03").find_all('span')[1:11]#获取近10年
+			year = driver.find_element_by_xpath("//div[@class='part03']/span[%d]"%(n+1))
+			print(year.text)
+			year_dir=os.path.join(journal_dir,year.text.split(' ')[0])#分割“2018 年”=>2018
+			mkdir(year_dir) #创建期刊年文件夹
+			for i in os.listdir(year_dir):#清空原本文章文件
+				delete_file_folder(os.path.join(year_dir,i))
+			urls = get_terms_url_by_year(driver,year)#urls=>每个期刊的入口url
+			for url in urls:#遍历每一期
+				print(url)
+				get_abstract_by_url(driver,url,year_dir)#获取每期文章摘要并写入文件
 	f.close()
 	driver.close()
 
 if __name__ == '__main__':
-	# sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')
 	zh_pattern = re.compile(u'[\u4e00-\u9fa5]+') #判断中文
 	csv_header=['题目','URL']
 	f = open('paper_urls.csv','w',newline='')
